@@ -74,7 +74,7 @@ export default function Home() {
           text: result,
           url: window.location.href
         });
-      } catch (error) {
+      } catch {
         console.log('分享失败');
       }
     } else {
@@ -169,12 +169,12 @@ export default function Home() {
         <p className="mt-1">
           Made with ❤️ by {' '}
           <a 
-            href="https://github.com/你的用户名" 
+            href="https://github.com/laoma-max" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-pink-500 hover:text-pink-600"
           >
-            你的名字
+            laoma-max
           </a>
         </p>
       </footer>
